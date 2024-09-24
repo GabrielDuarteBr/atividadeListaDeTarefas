@@ -34,7 +34,7 @@ header nav li:hover {
     justify-content: center;
     padding: 16px;
     background-color: rgb(185, 185, 185);
-    display: ;
+    display: none;
 }
 
 form input,
@@ -55,7 +55,7 @@ form button:hover {
 
 #listaDeTarefas {
     background-color: rgb(185, 185, 185);
-    display: ;
+    display: none;
 }
 
 #listaDeTarefas li {

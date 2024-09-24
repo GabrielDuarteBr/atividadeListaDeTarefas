@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+    background-color: gray;
+    align-items: center;
+    padding: 12px;
+}
+
+header h1 {
+margin-left: 16px;
+}
+
+header nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 12px;
+    background-color:dimgrey;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+header nav li:hover {
+    background-color: slategray;
+}
+
+.adicionarTarefa {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    background-color: rgb(185, 185, 185);
+    display: ;
+}
+
+form input,
+form button {
+    margin-left: 8px;
+    padding: 16px;
+    border: 1px solid black;
+}
+
+form button {
+    cursor: pointer;
+    background-color:rgb(16, 170, 16);
+}
+
+form button:hover {
+    background-color: rgb(14, 145, 14);
+}
+
+#listaDeTarefas {
+    background-color: rgb(185, 185, 185);
+    display: ;
+}
+
+#listaDeTarefas li {
+    list-style: none;
+}

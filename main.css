@@ -60,4 +60,7 @@ form button:hover {
 
 #listaDeTarefas li {
     list-style: none;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 18px;
 }

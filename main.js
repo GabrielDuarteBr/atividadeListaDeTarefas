@@ -7,19 +7,20 @@ $(document).ready(function(){
         $('#listaDeTarefas').slideDown();
     });
 
+    $('li#listaDeTarefas').click(function() {
+        ('li#listaDeTarefas').css({textDecoration: 'line-through'});
+    });
 
     $('form').on('submit', function(e) {
         e.preventDefault();
 
-        const nomeNovaTarefa = $('#inputNomeTarefa').value();
+        const nomeNovaTarefa = $('#inputNomeTarefa').val();
         const novaTarefa = $('<li></li>');
 
-        $(nomeNovaTarefa).appendTo(novaTarefa);
+        $('<span>'+nomeNovaTarefa+'</span>').appendTo(novaTarefa);
+        $('<hr>').appendTo(novaTarefa);
         $(novaTarefa).appendTo('#listaDeTarefas');
 
-
-
-
-
+        $('#inputNomeTarefa').val('');
     });
 })

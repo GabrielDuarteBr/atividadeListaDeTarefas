@@ -7,8 +7,8 @@ $(document).ready(function(){
         $('#listaDeTarefas').slideDown();
     });
 
-    $('li#listaDeTarefas').click(function() {
-        ('li#listaDeTarefas').css({textDecoration: 'line-through'});
+    $('#listaDeTarefas').on('click', 'li', function() {
+        $(this).css({ textDecoration: 'line-through' });
     });
 
     $('form').on('submit', function(e) {
